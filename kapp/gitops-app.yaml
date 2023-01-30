@@ -33,7 +33,7 @@ metadata:
   name: namespace-gitops
 rules:
 - apiGroups: [""]
-  resources: ["namespace"]
+  resources: ["namespaces"]
   verbs: ["get", "list", "create", "update"]
 ---
 kind: ClusterRoleBinding
