@@ -3,4 +3,4 @@ kind: SecretImport
 metadata:
   name: git-ssh
 spec:
-  fromNamespace: nitashav
+  fromNamespace: namespace-gitops
