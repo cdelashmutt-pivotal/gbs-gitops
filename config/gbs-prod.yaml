@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   labels:
     apps.tanzu.vmware.com/tap-ns: ''
-  name: gbs-test
+  name: gbs-prod
