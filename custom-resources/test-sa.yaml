@@ -1,7 +1,9 @@
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: test
+  name: default
 secrets:
-- name: test-token-tgbps
 - name: git-ssh
+- name: registries-credentials
+imagePullSecrets:
+- name: registries-credentials
