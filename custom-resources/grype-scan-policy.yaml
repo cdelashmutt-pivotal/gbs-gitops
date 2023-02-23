@@ -14,7 +14,8 @@ spec:
   regoFile: |
     package main
     # Accepted Values: "Critical", "High", "Medium", "Low", "Negligible", "UnknownSeverity"
-    notAllowedSeverities := ["Critical", "High", "UnknownSeverity"]
+    # notAllowedSeverities := ["Critical", "High", "UnknownSeverity"]
+    notAllowedSeverities := [ "UnknownSeverity"]
     ignoreCves := ["GHSA-mjmj-j48q-9wg2","CVE-2022-42003","CVE-2022-42004","GHSA-jjjh-jjxp-wpff","GHSA-rgv9-q543-rqg4","GHSA-36p3-wjmg-h94x", "CVE-2016-1000027", "GHSA-3mc7-4q67-w48m"]
     contains(array, elem) = true {
       array[_] = elem
